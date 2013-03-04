@@ -7,7 +7,7 @@
 
 各个成员项目的共性组成了本文的样式规则。当不同的开发者在不同的项目中合作时，这将会有一个共同的准则在这些项目中使用。 因此，本指南的好处不是规则本身，而是在共同使用这些规则。
 
-在 [RFC 2119][]中的特性关键词"必须"(MUST)，“不应”(MUST NOT)，“必要”(REQUIRED)，“将会”(SHALL)，“不会”(SHALL NOT)，“应当”(SHOULD)，“不应”(SHOULD NOT)，“推荐”(RECOMMENDED)，“可以”(MAY)和“可选”(OPTIONAL)在这文档中将被用来描述。
+在 [RFC 2119][]中的特性关键词"必须"(MUST)，“不可”(MUST NOT)，“必要”(REQUIRED)，“将会”(SHALL)，“不会”(SHALL NOT)，“应当”(SHOULD)，“不应”(SHOULD NOT)，“推荐”(RECOMMENDED)，“可以”(MAY)和“可选”(OPTIONAL)在这文档中将被用来描述。
 
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
 [PSR-0]: https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-0.md
