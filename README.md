@@ -4,9 +4,9 @@
 ------------------------------------
 
 - 接受：
-  - [PSR-0](https://github.com/hfcorriez/fig-standards/接受/PSR-0.md)
-  - [PSR-1](https://github.com/hfcorriez/fig-standards/接受/PSR-1-basic-coding-standard.md)
-  - [PSR-2](https://github.com/hfcorriez/fig-standards/接受/PSR-2-coding-style-guide.md)
+  - [PSR-0](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-0.md)
+  - [PSR-1](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-1-basic-coding-standard.md)
+  - [PSR-2](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-2-coding-style-guide.md)
   - PSR-3 (正在翻译...)
 
 PHP FIG(框架协同工作组)
