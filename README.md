@@ -1,43 +1,40 @@
-PHP Framework Interoperability Group
+PHP框架协同工作组
 ====================================
 
-The idea behind the group is for project representatives to talk about the commonalities between our projects and find ways we can work together. Our main audience is each other, but we’re very aware that the rest of the PHP community is watching. If other folks want to adopt what we’re doing they are welcome to do so, but that is not the aim.
+本组织的想法是通过讨论我们的共同点找出我们可以一起编码的方法。我们的主要读者是相互关注的，但是我们很清楚其余的PHP社区也在关注。我们很欢迎其他人想采用我们做的，但那不是目的。
 
-Proposing a Standards Recommendation
+提出一个标准建议
 ------------------------------------
 
-To propose a standards recommendation (PSR):
+如何提出一个标准的建议 (PSR):
 
-- fork this repo, create a branch, checkout that branch, add the PSR in
-  `proposed/`, push the branch to Github, and send a pull request; or,
+- 派生(fork)[官方仓库][]，创建并检出一个分支，添加PSR在`proposed/`，并且推送分支到Github，然后发送拉取请求(pull request)给我们；或者，
 
-- create a ticket to start a discussion on Github; or,
+- 在Github上创建一个工单来讨论；或者，
 
-- start a conversation on the [mailing list][].
+- 在 [邮件列表][] 开一个讨论。
 
-[mailing list]: http://groups.google.com/group/php-fig/
+[邮件列表]: http://groups.google.com/group/php-fig/
+[官方仓库]: https://github.com/php-fig/fig-standards
 
 
-Requesting Membership
+加入会员
 ---------------------
 
-You **do not** need to be a voting member to participate in discussion on
-the [mailing list][].
+*不要*在 [邮件列表][] 为成为遴选会员而进行讨论。
 
-To become a voting member, you must send an email to the [mailing list][].
+要成为一个遴选会员，你可以发送邮件到 [邮件列表][]
 
-- The subject line should read: `Membership Request: {$your_name} ({$project_name})`
+- 主题这么写：`Membership Request: {$你的名字} ({$项目名称})`
 
-- The body should include your name, the name of (and link to) the project you
-  represent, and other details you feel are relevant.
+- 主题可以包括你的名字，可以连接代表你的项目或者其他的合适的信息
   
-Current members will vote on your request.
+现在的会员将会对你的请求进行投票。
 
-Do not combine separate membership requests in a single thread; one request
-per thread, please.
+不要在一个主题贴提多个入会要求；一个帖子只能有一个请求。
 
 
-Voting Members
+遴选会员
 --------------
 
 1. Nate Abele: Lithium
