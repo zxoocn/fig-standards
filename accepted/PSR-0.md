@@ -1,24 +1,17 @@
-The following describes the mandatory requirements that must be adhered
-to for autoloader interoperability.
+下面描述了关于自动加载器特性强制性要求：
 
-Mandatory
+强制性
 ---------
 
-* A fully-qualified namespace and class must have the following
-  structure `\<Vendor Name>\(<Namespace>\)*<Class Name>`
-* Each namespace must have a top-level namespace ("Vendor Name").
-* Each namespace can have as many sub-namespaces as it wishes.
-* Each namespace separator is converted to a `DIRECTORY_SEPARATOR` when
-  loading from the file system.
-* Each `_` character in the CLASS NAME is converted to a
-  `DIRECTORY_SEPARATOR`. The `_` character has no special meaning in the
-  namespace.
-* The fully-qualified namespace and class is suffixed with `.php` when
-  loading from the file system.
-* Alphabetic characters in vendor names, namespaces, and class names may
-  be of any combination of lower case and upper case.
+* 一个完全标准的命名空间必须要有一下的格式结构`\<Vendor Name>\(<Namespace>\)*<Class Name>`
+* 命名空间必须有一个顶级的组织名称 ("Vendor Name").
+* 命名空间中可以根据情况决定使用多少个子空间
+* 命名空间中的分隔符当从文件系统加载的时候将被映射为 `DIRECTORY_SEPARATOR` 
+* 命名空间中的类名中的`_`没有特殊含义，也将被作为`DIRECTORY_SEPARATOR`对待. 
+* 命名空间中的类名在从文件系统加载时文件名都需要以`.php`结尾
+* 组织名，空间名，类名都可以随意选择使用大小写英文字符
 
-Examples
+示例
 --------
 
 * `\Doctrine\Common\IsolatedClassLoader` => `/path/to/project/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
@@ -26,22 +19,18 @@ Examples
 * `\Zend\Acl` => `/path/to/project/lib/vendor/Zend/Acl.php`
 * `\Zend\Mail\Message` => `/path/to/project/lib/vendor/Zend/Mail/Message.php`
 
-Underscores in Namespaces and Class Names
+命名空间和类名中的下划线
 -----------------------------------------
 
 * `\namespace\package\Class_Name` => `/path/to/project/lib/vendor/namespace/package/Class/Name.php`
 * `\namespace\package_name\Class_Name` => `/path/to/project/lib/vendor/namespace/package_name/Class/Name.php`
 
-The standards we set here should be the lowest common denominator for
-painless autoloader interoperability. You can test that you are
-following these standards by utilizing this sample SplClassLoader
-implementation which is able to load PHP 5.3 classes.
+以上是我们为实现无痛的自动加载特性设定的最低标准。你可以按照此标准实现一个SplClassLoader在PHP 5.3中去加载类。
 
-Example Implementation
+实例
 ----------------------
 
-Below is an example function to simply demonstrate how the above
-proposed standards are autoloaded.
+下面是一个函数实例简单展示如何使用上面建议的标准进行自动加载
 ```php
 <?php
 
@@ -61,13 +50,11 @@ function autoload($className)
 }
 ```
 
-SplClassLoader Implementation
+SplClassLoader实现
 -----------------------------
 
-The following gist is a sample SplClassLoader implementation that can
-load your classes if you follow the autoloader interoperability
-standards proposed above. It is the current recommended way to load PHP
-5.3 classes that follow these standards.
+下面的gist是一个SplClassLoader实例可以按照上面建议的自动加载特性来加载类。这也是我们当前推荐在PHP5.3中按照上述标准加载类的方式
 
 * [http://gist.github.com/221634](http://gist.github.com/221634)
+
 
