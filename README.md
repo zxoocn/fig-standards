@@ -1,5 +1,7 @@
 第一次翻译，若有问题，欢迎指正，可以发邮件到`hfcorriez#gmail.com`，谢谢！
 
+`基本语法规范都已翻译完成`
+
 目前翻译进度：
 ------------------------------------
 
@@ -7,7 +9,7 @@
   - [PSR-0](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-0.md)
   - [PSR-1](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-1-basic-coding-standard.md)
   - [PSR-2](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-2-coding-style-guide.md)
-  - PSR-3 (正在翻译...)
+  - [PSR-3](https://github.com/hfcorriez/fig-standards/blob/zh_CN/接受/PSR-3-logger-interface.md)
 
 PHP FIG(框架协同工作组)
 ====================================
